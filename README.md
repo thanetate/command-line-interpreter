@@ -1,6 +1,6 @@
 ## Command-Line Interpreter
 
-In my CSCE 3600 class, I developed a basic command-line interpreter in C, designed to mimic fundamental shell functionalities. This shell handles user commands interactively and from batch files, allowing for directory changes, command execution, and PATH environment variable management.
+I developed a basic command-line interpreter in C, designed to mimic fundamental shell functionalities. This shell handles user commands interactively and from batch files, allowing for directory changes, command execution, and PATH environment variable management.
 
 ## Features
 - **Interactive Command Execution:** The shell prompts users for input, processes commands, and executes them, supporting standard operations like directory changes and external program execution.  
