@@ -1,13 +1,13 @@
-## Command-Line Interpreter
+### command-line interpreter
 
-I developed a basic command-line interpreter in C, designed to mimic fundamental shell functionalities. This shell handles user commands interactively and from batch files, allowing for directory changes, command execution, and PATH environment variable management.
+Built a simple command-line interpreter in C that mimics basic shell behavior. It supports both interactive use and batch file execution, along with directory navigation and PATH management.
 
-## Features
-- **Interactive Command Execution:** The shell prompts users for input, processes commands, and executes them, supporting standard operations like directory changes and external program execution.  
-- **Directory Management:** The `changedir` function facilitates navigation through directories, including returning to the home directory, and provides feedback on directory changes or errors.  
-- **Command Loop:** The `CommandLoop` function processes and executes user commands continuously until termination, managing multiple commands on a single line and executing them sequentially.  
-- **PATH Environment Variable Management:** The `Path` function allows users to view or modify the PATH environment variable, including appending or removing paths, with the help of `removeSubstring` for path modifications.  
-- **Batch File Execution:** Commands can be executed from batch files, reading and processing each line as a separate command.
+Features
+- Command Execution: Runs user commands interactively or from batch files
+- Directory Navigation: Change directories and return to home
+- Command Loop: Processes multiple commands continuously
+- PATH Management: View, add, or remove paths
+- Batch Support: Executes commands line-by-line from files
 
-## Demo
+### demo
 <img width="1000" alt="SS 1" src="https://github.com/user-attachments/assets/b496ce88-3af2-4d69-befe-ce40fcf57f24">
