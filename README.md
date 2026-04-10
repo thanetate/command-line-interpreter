@@ -1,4 +1,4 @@
-### command-line interpreter
+### Command-Line Interpreter 
 
 Built a simple command-line interpreter in C that mimics basic shell behavior. It supports both interactive use and batch file execution, along with directory navigation and PATH management.
 
